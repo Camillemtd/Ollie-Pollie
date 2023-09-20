@@ -1,0 +1,38 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.lineContainer {
+  position: relative;
+  width: 115px;
+  overflow: hidden;
+}
+
+.line {
+  width: 40px;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease-in-out;
+}
+
+.lineContainer:hover .line {
+  width: 100%;
+}
+
+

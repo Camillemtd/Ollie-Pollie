@@ -1,0 +1,21 @@
+@keyframes focus-in-contract {
+	0% {
+	  letter-spacing: 1em;
+	  -webkit-filter: blur(12px);
+			  filter: blur(12px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-filter: blur(0px);
+			  filter: blur(0px);
+	  opacity: 1;
+	}
+  }
+
+.textAnimation {
+	animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.text-shadow{
+	text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
